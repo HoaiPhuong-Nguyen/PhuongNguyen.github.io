@@ -1,0 +1,75 @@
+html, body{
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	font-weight: 300;
+	line-height: 1.5;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	background-image: url('borders.jpg');
+	background-position: center;
+	background-size: cover;
+	background-color: #DCE5EF;
+	margin: 0;
+}
+
+
+.page-title {
+  text-align: center;
+  font-weight: bold;
+  font-family:"Courier New", monospace;
+  font-size: 5em;
+}
+
+.page-description {
+  border: 1px dashed #000;
+  margin: 2px;
+  text-align: center;
+  padding: 30px;
+}
+
+.recipes{
+  margin-top: 20px;
+  display:flex;
+  flex-wrap: wrap;
+  display:block;
+
+}
+
+.recipe-name{
+}
+
+.recipe-name a{
+	margin: 20px;
+	display: block;
+	text-align: center;
+	font-family:'Comic Sans MS', sans-serif;
+	font-size:2.5em;
+	color: #000000;
+}
+
+.reciple-name a: active{
+}
+
+.marking{
+	border:double;
+	font-family: 'Lucida Sans Unicode', sans-serif;
+	font-size:2.5em;
+	
+}
+
+.thumbnail{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display:cover;
+}
+
+
+
+.in{
+	word-wrap:break-word;
+}
